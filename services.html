@@ -40,14 +40,14 @@
     <link href="css/custom.css" rel="stylesheet" media="screen" />
   </head>
   <body>
-  <!-- Header Start -->
+    <!-- Header Start -->
     <header class="main-header" style="background-color: #fff">
       <div class="header-sticky">
         <nav class="navbar navbar-expand-lg">
           <div class="container">
             <!-- Logo Start -->
             <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="Logo" height="110" />
+              <img src="images/logo-balance-bliss.jpg" alt="Logo" height="160" />
             </a>
             <!-- Logo End -->
 
@@ -78,7 +78,7 @@
                   </li>
                   <li class="nav-item highlighted-menu">
                     <a
-                      class="nav-link"
+                      class="nav-link" 
                       href="book-appointment.html"
                       style="color: #000"
                       >book appointment</a
@@ -87,14 +87,18 @@
                 </ul>
               </div>
               <!-- Header Btn Start -->
-              <div class="header-btn d-inline-flex">
-                <a
-                  href="book-appointment.html"
-                  class="btn-default"
-                  style="color: #000"
-                  >book an appointment</a
-                >
-              </div>
+            <!-- Button to trigger modal -->
+<div class="header-btn d-inline-flex">
+    <button type="button" class="btn-default"  data-bs-toggle="modal" data-bs-target="#appointmentModal">
+        Book an Appointment
+    </button>
+</div>
+
+<!-- Modal -->
+
+<!-- Bootstrap JS (Make sure to include Bootstrap in your project) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
               <!-- Header Btn End -->
             </div>
             <!-- Main Menu End -->
@@ -115,14 +119,15 @@
                     <!-- Service Sidebar Start -->
                     <div class="service-sidebar">
                         <!-- Service Category List Start -->
-                        <div class="service-catagery-list wow fadeInUp">
+                         <div class="service-catagery-list wow fadeInUp">
                             <h3>services category</h3>
                             <ul>
-                                <li><a href="#">couples counseling</a></li>
-                                <li><a href="#">adolescent counseling</a></li>
-                                <li><a href="#">depression counseling</a></li>
-                                <li><a href="#">stress counseling</a></li>
-                                <li><a href="#">meditation counseling</a></li>
+                             
+                                <li><a href="individual-therapy.html">Individual therapy</a></li>
+                                <li><a href="couple-therapy.html">Couple Therapy</a></li>
+                                <li><a href="employee-assistance.html">Employee Assistance</a></li>
+                                <li><a href="group-space.html">
+Group Spaces</a></li>
                             </ul>
                         </div>
                         <!-- Service Category List End -->
@@ -140,243 +145,37 @@
                 </div>
 
                 <div class="col-lg-8">
+                    <h3 class="mb-5">Individual therapy</h3>
                     <!-- Service Single Content Start -->
                     <div class="service-single-content">
                         <!-- Service Feature Image Start -->
                         <div class="service-feature-image">
                             <figure class="image-anime reveal">
-                                <img src="images/service-image-2.jpg" alt="">
+                                <img src="images/AdobeStock_625050502.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- Service Feature Image End -->
 
                         <!-- Secvice Entry Start -->
                         <div class="service-entry">
-                            <p class="wow fadeInUp">At we understand that every individual's journey is unique. Our personalized individual therapy sessions are tailored to your specific needs, challenges, and goals. Whether you're seeking support for anxiety, depression, life transitions, relationship issues, or personal growth, we provide a safe and compassionate environment where you can explore and heal.</p>
+                           <ul class="wow fadeInUp">
+    <li>Individual therapy provides a safe space to address mental health concerns.</li>
+    <li>You work one-on-one with a therapist to explore personal challenges.</li>
+    <li>Concerns may include emotional disturbances, anger, and stress management.</li>
+    <li>Therapy helps process trauma, loss, and adverse childhood experiences.</li>
+    <li>It also supports self-exploration, relationships, and overcoming isolation.</li>
+</ul>
 
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Our approach integrates evidence-based techniques and empathetic listening to help you uncover insights, build resilience, and create meaningful change. Together, we'll work to develop strategies that empower you to live a more balanced, fulfilling life.</p>
 
-                            <!-- Secvice Therapy Benefits Start -->
-                            <div class="service-therapy-benefits">
-                                <!-- Therapy Benefits Content Start -->
-                                <div class="therapy-benefits-content wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2>Therapy benefits</h2>
-                                    <p>Therapy offers a path to greater self-awarenes emotional balance and resilience.</p>
-                                    
-                                    <ul>
-                                        <li>improved emotional well-being</li>
-                                        <li>increased self-awareness</li>
-                                        <li>resilience and coping skills</li>
-                                        <li>better relationships</li>
-                                    </ul>
-                                </div>
-                                <!-- Therapy Benefits Content End -->
+                         
 
-                                <!-- Therapy Benefits Start -->
-                                <div class="therapy-benefits-image">
-                                    <figure class="image-anime reveal">
-                                        <img src="images/service-entry-img.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <!-- Therapy Benefits End -->
-                            </div>
-                            <!-- Secvice Therapy Benefits End -->
+                  
 
-                            <!-- Therapy Benefits Box Start -->
-                            <div class="therapy-benefits-box">
-                                <!-- Therapy Benefits Item Start -->
-                                <div class="therapy-benefits-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <img src="images/icon-service-benefit-1.svg" alt="">
-                                    </div>
-
-                                    <div class="therapy-benefits-item-content">
-                                        <h3>improved health</h3>
-                                        <p>Therapy helps manage stress, anxiet and leading to better emotional</p>
-                                    </div>
-                                </div>
-                                <!-- Therapy Benefits Item End -->
-
-                                <!-- Therapy Benefits Item Start -->
-                                <div class="therapy-benefits-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="icon-box">
-                                        <img src="images/icon-service-benefit-2.svg" alt="">
-                                    </div>
-
-                                    <div class="therapy-benefits-item-content">
-                                        <h3>enhanced coping skills</h3>
-                                        <p>Therapy helps manage stress, anxiet and leading to better emotional</p>
-                                    </div>
-                                </div>
-                                <!-- Therapy Benefits Item End -->
-                            </div>
-                            <!-- Therapy Benefits Box End -->
-
-                            <h2 class="text-anime-style-2">How personalized therapy works</h2>
-
-                            <p class="wow fadeInUp">Personalized therapy begins with understanding your unique experiences and goals. Through tailored sessions, we use proven techniques to address your challenges, foster growth.</p>
-
-                            <!-- Service Therapy Steps Start -->
-                            <div class="service-therapy-steps">
-                                <!-- Service Therapy Item Start -->
-                                <div class="therapy-step-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="therapy-step-no">
-                                        <h2>01</h2>
-                                    </div>
-                                    <div class="therapy-step-content">
-                                        <h3>initial assessment</h3>
-                                        <p>The process begins with an in-depth conversation to understand your challenges, goals, and personal history. This helps us create a clear roadmap for your therapy journey.</p>
-                                    </div>
-                                </div>
-                                <!-- Service Therapy Item End -->
-
-                                <!-- Service Therapy Item Start -->
-                                <div class="therapy-step-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <div class="therapy-step-no">
-                                        <h2>02</h2>
-                                    </div>
-                                    <div class="therapy-step-content">
-                                        <h3>tailored approach</h3>
-                                        <p>The process begins with an in-depth conversation to understand your challenges, goals, and personal history. This helps us create a clear roadmap for your therapy journey.</p>
-                                    </div>
-                                </div>
-                                <!-- Service Therapy Item End-->
-
-                                <!-- Service Therapy Item Start -->
-                                <div class="therapy-step-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="therapy-step-no">
-                                        <h2>03</h2>
-                                    </div>
-                                    <div class="therapy-step-content">
-                                        <h3>collaborative sessions</h3>
-                                        <p>The process begins with an in-depth conversation to understand your challenges, goals, and personal history. This helps us create a clear roadmap for your therapy journey.</p>
-                                    </div>
-                                </div>
-                                <!-- Service Therapy Item End -->
-                            </div>
-                            <!-- Service Therapy Steps End -->
-
-                            <h2 class="text-anime-style-2">Why Choose Therapy</h2>
-
-                            <p class="wow fadeInUp">Therapy provides a safe, supportive space to explore your thoughts and feelings, overcome challenges, and achieve personal growth.</p>
-
-                            <ul class="wow fadeInUp" data-wow-delay="0.2s">
-                                <li>personal growth and empowerment</li>
-                                <li>proven, evidence-based techniques</li>
-                                <li>build resilience and confidence</li>
-                                <li>emotional clarity and support</li>
-                            </ul>
-
-                            <!-- Service Entry Video Image Start -->
-                            <div class="service-entry-video-image">
-                                <!-- Video Image Start -->
-                                <div class="video-image">
-                                    <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                                        <figure class="image-anime">
-                                            <img src="images/service-entry-video-bg.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- Video Image End -->
-
-                                <!-- Video Play Button Start -->
-                                <div class="video-play-button">
-                                    <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Play Button End -->           
-                            </div>
-                            <!-- Service Entry Video Image End -->
+                        
                         </div>
                         <!-- Secvice Entry End -->
 
-                        <!-- Pahe Single FAQs Start -->
-                        <div class="page-single-faqs">
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Frequently asked questions</h2>
-                            </div>
-
-                            <!-- FAQ Accordion Start -->
-                            <div class="faq-accordion page-faq-accordion" id="faqaccordion">
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading1">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                            <span>1.</span> What is mental therapy, and how can it help me?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>It's essential to feel comfortable and understood by your therapist. If you don't feel a connection, it's okay to discuss your concerns.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <h2 class="accordion-header" id="heading2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                            <span>2.</span> What if I don't feel a connection with my therapist?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>It's essential to feel comfortable and understood by your therapist. If you don't feel a connection, it's okay to discuss your concerns.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2 class="accordion-header" id="heading3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                            <span>3.</span> What should I expect in my first session?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>It's essential to feel comfortable and understood by your therapist. If you don't feel a connection, it's okay to discuss your concerns.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <h2 class="accordion-header" id="heading4">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                            <span>4.</span> Will therapy be covered by my insurance?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>It's essential to feel comfortable and understood by your therapist. If you don't feel a connection, it's okay to discuss your concerns.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                                    <h2 class="accordion-header" id="heading5">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                            <span>5.</span> How long does therapy usually take?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>It's essential to feel comfortable and understood by your therapist. If you don't feel a connection, it's okay to discuss your concerns.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            </div>
-                            <!-- FAQ Accordion End -->
-                        </div>
-                        <!-- Pahe Single FAQs End -->
+            
                     </div>
                     <!-- Service Single Content End -->
                 </div>
@@ -385,123 +184,98 @@
     </div>
     <!-- Page Service Single End -->
 
-     <!-- Footer CTA Box Start -->
-    <div class="footer-cta-box">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <!-- Footer CTa Content Start -->
-            <div class="footer-cta-content">
-              <!-- Section Title Start -->
-              <div class="section-title">
-                <h2 class="text-anime-style-2" data-cursor="-opaque">
-                  Get a consultation
-                </h2>
-              </div>
-              <!-- Section Title End -->
-            </div>
-            <!-- Footer CTa Content End -->
-          </div>
 
-          <div class="col-lg-6">
-            <!-- Footer CTA Button Start -->
-            <div class="footer-cta-btn wow fadeInUp">
-              <a href="#" class="btn-default btn-phone"
-                ><i class="fa-solid fa-phone-volume"></i> +91 8237017150</a
-              >
-              <a href="#" class="btn-default btn-comment"
-                ><i class="fa-solid fa-comment-dots"></i> +91 8237017150</a
-              >
-            </div>
-            <!-- Footer CTA Button End -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer CTA Box End -->
-
-    <!-- Footer Start -->
+   <!-- Footer Start -->
     <footer class="main-footer">
       <div class="container">
         <div class="row">
+          
+          <div class="col-lg-3">
+       <div class="about-footer">
+              <!-- Footer Contact Box Start -->
+              <div class="footer-contact-box">
+                <!-- Footer Contact Item Start -->
+                <div class="footer-contact-item">
+                  <div class="footer-logo">
+                     <img src="images/logo-balance-bliss.jpg" alt="Logo"  />
+                     
+                  </div>
+                 
+                </div>
+                </div>
+                </div>
+          </div>
           <div class="col-lg-9">
             <!-- About Footer Start -->
             <div class="about-footer">
               <!-- Footer Contact Box Start -->
               <div class="footer-contact-box">
                 <!-- Footer Contact Item Start -->
-                <div class="footer-contact-item">
-                  <div class="footer-logo">
-                    <img src="images/logo.png" alt="" />
-                  </div>
+                             <!-- Conatct Info Item Start -->
+              <div class="contact-info-item wow fadeInUp">
+                <!-- Icon Box Start -->
+                <div class="icon-box" >
+                  <img src="images/icon-location.svg" alt="" />
                 </div>
-                <div class="footer-contact-item">
-                  <p>Phone Number</p>
-                  <h3>+91 8237017150</h3>
-                </div>
-                <!-- Footer Contact Item End -->
+                <!-- Icon Box End -->
 
-                <!-- Footer Contact Item Start -->
-                <div class="footer-contact-item">
-                  <p>Email Address</p>
-                  <h3>anivira1999@gmail.com</h3>
+                <!-- Contact Info Content Start -->
+                <div class="contact-info-content">
+                  <h3 style="color: #000;">our address</h3>
+                  <p style="color: #000;">123 Example Street Pune</p>
                 </div>
-                <!-- Footer Contact Item End -->
+                <!-- Contact Info Content End -->
+              </div>
+              <!-- Conatct Info Item End -->
 
-                <!-- Footer Contact Item Start -->
-                <div class="footer-contact-item">
-                  <p>Location</p>
-                  <h3>123 High Street LN1 1AB PUNE</h3>
+              <!-- Conatct Info Item Start -->
+              <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
+                <!-- Icon Box Start -->
+                <div class="icon-box">
+                  <img src="images/icon-phone.svg" alt="" />
                 </div>
-                <!-- Footer Contact Item End -->
+                <!-- Icon Box End -->
+
+                <!-- Contact Info Content Start -->
+                <div class="contact-info-content">
+                  <h3 style="color: #000;">phone number</h3>
+                  <p style="color: #000;">+91 8237017150</p>
+                </div>
+                <!-- Contact Info Content End -->
+              </div>
+              <!-- Conatct Info Item End -->
+
+              <!-- Conatct Info Item Start -->
+              <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
+                <!-- Icon Box Start -->
+                <div class="icon-box">
+                  <img src="images/icon-mail.svg" alt="" />
+                </div>
+                <!-- Icon Box End -->
+
+                <!-- Contact Info Content Start -->
+                <div class="contact-info-content">
+                  <h3 style="color: #000;">e-mail support</h3>
+                  <p style="color: #000;">anivira1999@gmail.com</p>
+                </div>
+                <!-- Contact Info Content End -->
+              </div>
+              <!-- Conatct Info Item End -->
+            </div>
               </div>
               <!-- Footer Contact Box End -->
             </div>
             <!-- About Footer End -->
           </div>
 
-          <div class="col-lg-3">
-            <!-- Footer Social Link Start -->
-            <div class="footer-social-links">
-              <h3>join our community</h3>
-              <p>Join Us Today for Resources, Insight & Connection</p>
-              <ul>
-                <li>
-                  <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-              </ul>
-            </div>
-            <!-- Footer Social Link End -->
-          </div>
         </div>
 
         <!-- Footer Copyright Section Start -->
         <div class="footer-copyright">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <!-- Footer Menu Start -->
-              <div class="footer-menu">
-                <ul>
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="about-us.html">about us</a></li>
-                  <li><a href="services.html">services</a></li>
+          <div class="row ">
+  
 
-                  <li><a href="contact.html">contact us</a></li>
-                </ul>
-              </div>
-              <!-- Footer Menu End -->
-            </div>
-
-            <div class="col-md-6">
+            <div class="col-md-4">
               <!-- Footer Copyright Start -->
               <div class="footer-copyright-text">
                 <p>Copyright © 2025 All Rights Reserved.</p>
@@ -514,7 +288,38 @@
       </div>
     </footer>
     <!-- Footer End -->
-
+<!-- Modal -->
+<div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius: 15px; overflow: hidden;">
+            <div class="modal-header" style="background: linear-gradient(90deg, #799577, #799577); color: white;">
+                <h5 class="modal-title" id="appointmentModalLabel" style="color:#fff;text-align: center;">Book an Appointment</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="padding: 20px; background-color: #f8f9fa;">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Appointment Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg w-100" style="background: linear-gradient(90deg, #799577, #799577); color: white; border-radius: 25px; border: none;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
