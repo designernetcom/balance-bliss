@@ -417,6 +417,9 @@ body{
 	font-weight: 500;
 	font-size: 14px;
 }
+.bgc{
+	background-color:#185907;
+}
 
 /************************************/
 /**** 	   03. Header css		 ****/
@@ -493,7 +496,7 @@ header.main-header .header-sticky.active::before{
 
 .main-menu ul li a{
 	font-family: var(--accent-font);
-	font-size: 16px;
+	font-size: 19px;
 	font-weight: 400;
 	padding: 14px 20px !important;
 	color: var(--white-color);
@@ -1652,7 +1655,7 @@ header.main-header .header-sticky.active::before{
 
 .cta-box{
 	position: relative;
-	background-color: var(--accent-color);
+	background-color: rgb(121, 149, 119);
 	border-radius: 20px;
 	display: flex;
 	align-items: end;
@@ -2084,10 +2087,11 @@ header.main-header .header-sticky.active::before{
 /***    15. Our Appointment css	  ***/
 /************************************/
 
-.our-appointment{
-	background: linear-gradient(180deg, var(--white-color) 50%, var(--accent-color) 50%);
-	padding: 50px 0  100px;
+.our-appointment {
+    background: linear-gradient(180deg, #799577 50%, #799577 50%);
+    padding: 50px 0 100px;
 }
+
 
 .our-appointment-box{
 	background: var(--white-color);
@@ -2256,7 +2260,7 @@ header.main-header .header-sticky.active::before{
 }
 
 .main-footer{
-	background: var(--secondary-color);
+	/* background: var(--secondary-color); */
 	padding: 60px 0 0;
 }
 
@@ -2265,7 +2269,7 @@ header.main-header .header-sticky.active::before{
 }
 
 .footer-logo img{
-	max-width: 160px;
+	max-width: 210px;
 }
 
 .footer-contact-box{
@@ -2878,7 +2882,7 @@ header.main-header .header-sticky.active::before{
 }
 
 .service-catagery-list ul li:hover a{
-	background-color: var(--accent-color);
+	background-color: #799577;
     color: var(--white-color);
 }
 
@@ -2903,7 +2907,7 @@ header.main-header .header-sticky.active::before{
 
 .faq-cta-box.sidebar-cta-box{
     max-width: 100%;
-    background-color: var(--accent-color);
+    background-color: rgb(121, 149, 119);
     backdrop-filter: blur(0);
     -webkit-backdrop-filter: blur(0);
 }
@@ -2958,7 +2962,7 @@ header.main-header .header-sticky.active::before{
     position: relative;
     text-transform: capitalize;
 	color: var(--primary-color);
-	width: calc(50% - 5px);
+	/* width: calc(50% - 5px); */
     padding-left: 34px;
 }
 
@@ -4425,7 +4429,7 @@ header.main-header .header-sticky.active::before{
 }
 
 .contact-info-box{
-    background-color: var(--accent-color);
+    background-color:#799577;
     border-radius: 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -4454,8 +4458,9 @@ header.main-header .header-sticky.active::before{
 	transition: all 0.5s ease-in-out;
 }
 
+
 .contact-info-item:hover .icon-box{
-	background-color: transparent;
+	background-color: #f09a0e;
 }
 
 .contact-info-item .icon-box::before{
@@ -4464,7 +4469,7 @@ header.main-header .header-sticky.active::before{
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--primary-color);
+    background: #f09a0e;
     border-radius: 8px;
     width: 100%;
     height: 100%;
@@ -5019,7 +5024,7 @@ header.main-header .header-sticky.active::before{
 	}
 
 	.footer-contact-item h3{
-		font-size: 18px;
+		/* font-size: 18px; */
 	}
 
 	.footer-social-links p{
