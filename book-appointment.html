@@ -38,6 +38,34 @@
     <link rel="stylesheet" href="css/mousecursor.css" />
     <!-- Main Custom Css -->
     <link href="css/custom.css" rel="stylesheet" media="screen" />
+        <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .appointment-box {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-label {
+            font-weight: 600;
+        }
+        .btn-custom {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+        }
+        .btn-custom:hover {
+            background: #0056b3;
+        }
+        .form-check-input {
+            margin-right: 10px;
+        }
+    </style>
   </head>
   <body>
    <!-- Header Start -->
@@ -126,278 +154,144 @@
     
 
     <!-- Page Appointment Start -->
-    <div class="page-book-appointment">
+    <div class="page-book-appointment" >
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 offset-lg-2" >
-            <!-- Our Appointment Box Start -->
-            <div class="our-appointment-box" >
-              <!-- Appointment Form Start -->
-              <div >
-                <!-- Contact Us Form Start -->
-                <form
-                  id="appointmentForm"
-                  action="#"
-                  method="POST"
-                  data-toggle="validator"
-                  class="wow fadeInUp"
-                >
-                <h6>Please fill out this form and  will reach out to schedule your free 15 minute phone consultation!</h6>
-                  <div class="row " style="padding-top: 15px;">
-                     <div class="mb-3 col-lg-6">
-                        <label for="name" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                     <div class="mb-3 col-lg-6">
-                        <label for="name" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                      <div class="mb-3 col-lg-12">
-                        <label for="name" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="" required>
-                    </div>
-                    <div class="mb-3 col-lg-12">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-                       <div class="mb-3 col-lg-7">
-*
-                        <label for="date" class="form-label">Date Of Birthday</label>
-                        <input type="date" class="form-control" id="date" required>
-                    </div>
-                  
-                    <h6 class="mb-5">Daily Availability - check all that apply
-(required)</h6>
-                    <div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-            Monday
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-            Tuesday
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-            Wednesday
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-            Thursday
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-            Friday
-        </label>
-    </div>
-</div>
- <h6 class="mb-5">Daily Availability - check all that apply
-(required)</h6>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-           Morning (8am-10am)
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-            
-
-Late morning (10am-12pm)
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-           Mid-day (12pm-2pm)
-        </label>
-    </div>
-</div>
-<div class="mb-3 col-lg-12">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Monday">
-        <label class="form-check-label" for="Monday">
-          Afternoon (2pm-5pm)
-        </label>
-    </div>
-</div>
-      <div class="mb-3 col-lg-7">
-
-                        <label for="date" class="form-label">Location</label>
-                         <select id="therapyType" class="form-select">
-        <option value="physical">Physical Therapy</option>
-        <option value="occupational">Occupational Therapy</option>
-        <option value="speech">Speech Therapy</option>
-    </select>
-                    </div>
-                 <div class="mb-3 col-lg-12">
-    <label for="therapyType" class="form-label">Type of Therapy</label>
-    <select id="therapyType" class="form-select">
-        <option value="physical">Physical Therapy</option>
-        <option value="occupational">Occupational Therapy</option>
-        <option value="speech">Speech Therapy</option>
-    </select>
-</div>
-
-            
-                
-                    <div class="mb-3 col-lg-6">
-*
-                        <label for="date" class="form-label">Appointment Date</label>
-                        <input type="date" class="form-control" id="date" required>
-                    </div>
-                    <div class="mb-3 col-lg-12">
-                        <label for="message" class="form-label">Please tell me a little bit about what you're looking to get out of therapy:(required)</label>
-                        <textarea class="form-control" id="message" rows="5"></textarea>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="contact-form-btn">
-                        <button type="submit" class="btn-default">
-                          book an appointment
-                        </button>
-                        <div id="msgSubmit" class="h3 hidden"></div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-                <!-- Contact Us Form End -->
-              </div>
-              <!-- Appointment Form Start -->
-
-             
-            </div>
-            <!-- Our Appointment Box End -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Page Appointment End -->
-
-
-   <!-- Footer Start -->
-    <footer class="main-footer">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-3">
-       <div class="about-footer">
-              <!-- Footer Contact Box Start -->
-              <div class="footer-contact-box">
-                <!-- Footer Contact Item Start -->
-                <div class="footer-contact-item">
-                  <div class="footer-logo">
-                     <img src="images/logo-balance-bliss.jpg" alt="Logo"  />
-                     
-                  </div>
-                 
-                </div>
-                </div>
-                </div>
-          </div>
-          <div class="col-lg-9">
-            <!-- About Footer Start -->
-            <div class="about-footer">
-              <!-- Footer Contact Box Start -->
-              <div class="footer-contact-box">
-                <!-- Footer Contact Item Start -->
-                             <!-- Conatct Info Item Start -->
-              <div class="contact-info-item wow fadeInUp">
-                <!-- Icon Box Start -->
-                <div class="icon-box" >
-                  <img src="images/icon-location.svg" alt="" />
-                </div>
-                <!-- Icon Box End -->
-
-                <!-- Contact Info Content Start -->
-                <div class="contact-info-content">
-                  <h3 style="color: #000;">our address</h3>
-                  <p style="color: #000;">123 Example Street Pune</p>
-                </div>
-                <!-- Contact Info Content End -->
-              </div>
-              <!-- Conatct Info Item End -->
-
-              <!-- Conatct Info Item Start -->
-              <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
-                <!-- Icon Box Start -->
-                <div class="icon-box">
-                  <img src="images/icon-phone.svg" alt="" />
-                </div>
-                <!-- Icon Box End -->
-
-                <!-- Contact Info Content Start -->
-                <div class="contact-info-content">
-                  <h3 style="color: #000;">phone number</h3>
-                  <p style="color: #000;">+91 8237017150</p>
-                </div>
-                <!-- Contact Info Content End -->
-              </div>
-              <!-- Conatct Info Item End -->
-
-              <!-- Conatct Info Item Start -->
-              <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
-                <!-- Icon Box Start -->
-                <div class="icon-box">
-                  <img src="images/icon-mail.svg" alt="" />
-                </div>
-                <!-- Icon Box End -->
-
-                <!-- Contact Info Content Start -->
-                <div class="contact-info-content">
-                  <h3 style="color: #000;">e-mail support</h3>
-                  <p style="color: #000;">anivira1999@gmail.com</p>
-                </div>
-                <!-- Contact Info Content End -->
-              </div>
-              <!-- Conatct Info Item End -->
-            </div>
-              </div>
-              <!-- Footer Contact Box End -->
-            </div>
-            <!-- About Footer End -->
-          </div>
-
-        </div>
-
-        <!-- Footer Copyright Section Start -->
-        <div class="footer-copyright">
-          <div class="row ">
+        
   
+    <div class="col-lg-8 offset-lg-2" >
+        <div class="appointment-box" >
+            <h4 class="text-center mb-4">Book an Appointment</h4>
+            <p class="text-center">Fill out the form below, and we'll reach out to schedule your free 15-minute consultation.</p>
 
-            <div class="col-md-4">
-              <!-- Footer Copyright Start -->
-              <div class="footer-copyright-text">
-                <p>Copyright © 2025 All Rights Reserved.</p>
-              </div>
-              <!-- Footer Copyright End -->
-            </div>
-          </div>
+            <form id="appointmentForm" action="#" method="POST">
+                <div class="row">
+                    <!-- First & Last Name -->
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter last name" required>
+                    </div>
+
+                    <!-- Phone & Email -->
+                    <div class="col-md-6 mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+
+                    <!-- Date of Birth -->
+                    <div class="col-md-6 mb-3">
+                        <label for="dob" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="dob" required>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="col-12">
+                        <h6 class="mt-3">Daily Availability (Check all that apply):</h6>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="monday">
+                            <label class="form-check-label" for="monday">Monday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tuesday">
+                            <label class="form-check-label" for="tuesday">Tuesday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="wednesday">
+                            <label class="form-check-label" for="wednesday">Wednesday</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="thursday">
+                            <label class="form-check-label" for="thursday">Thursday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="friday">
+                            <label class="form-check-label" for="friday">Friday</label>
+                        </div>
+                    </div>
+
+                    <!-- Preferred Time Slots -->
+                    <div class="col-12">
+                        <h6 class="mt-3">Preferred Time Slots (Check all that apply):</h6>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="morning">
+                            <label class="form-check-label" for="morning">Morning (8am - 10am)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="lateMorning">
+                            <label class="form-check-label" for="lateMorning">Late Morning (10am - 12pm)</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="midDay">
+                            <label class="form-check-label" for="midDay">Mid-day (12pm - 2pm)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="afternoon">
+                            <label class="form-check-label" for="afternoon">Afternoon (2pm - 5pm)</label>
+                        </div>
+                    </div>
+
+                    <!-- Location & Therapy Type -->
+                    <div class="col-md-6 mb-3">
+                        <label for="location" class="form-label">Location</label>
+                        <select id="location" class="form-select">
+                            <option selected>Select location</option>
+                            <option value="clinic">Clinic</option>
+                            <option value="home">Home Visit</option>
+                            <option value="online">Online Therapy</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="therapyType" class="form-label">Type of Therapy</label>
+                        <select id="therapyType" class="form-select">
+                            <option selected>Select therapy type</option>
+                            <option value="physical">Physical Therapy</option>
+                            <option value="occupational">Occupational Therapy</option>
+                            <option value="speech">Speech Therapy</option>
+                        </select>
+                    </div>
+
+                    <!-- Appointment Date -->
+                    <div class="col-md-6 mb-3">
+                        <label for="appointmentDate" class="form-label">Preferred Appointment Date</label>
+                        <input type="date" class="form-control" id="appointmentDate" required>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="col-12 mb-3">
+                        <label for="message" class="form-label">Tell us about your needs:</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Describe your therapy goals..." required></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-12">
+                        <button type="submit" class="btn-custom">Book an Appointment</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <!-- Footer Copyright Section End -->
-      </div>
+    </div>
+
+
+</div>
+</div>
+</div>
+
     </footer>
     <!-- Footer End -->
 
