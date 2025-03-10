@@ -40,10 +40,41 @@
     <link href="css/custom.css" rel="stylesheet" media="screen" />
  <style>
   .ft2{
-          font-size: 18px;
+          font-size: 16px;
           margin: 2px;
           font-family:Georgia, 'Times New Roman', Times, serif;
+          
         }
+        .icon {
+            color: green;
+            font-size: 18px;
+            margin-right: 8px;
+        }
+         .therapy-card {
+        background-color: #f8f9fa;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        .therapy-image {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .icon {
+            color: green;
+            font-size: 18px;
+            margin-right: 8px;
+        }
+
  </style>
    
   </head>
@@ -59,7 +90,7 @@
             </a>
             <!-- Logo End -->
 
-            <!-- Main Menu Start -->
+             <!-- Main Menu Start -->
             <div class="collapse navbar-collapse main-menu">
               <div class="nav-menu-wrapper">
                 <ul class="navbar-nav mr-auto" id="menu">
@@ -73,11 +104,15 @@
                       >About Us</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html" style="color: #000"
-                      >Services</a
-                    >
-                  </li>
+    <li class="nav-item submenu"><a class="nav-link" href="#" style="color: #000;">Services</a>
+                                    <ul>                                        
+                                        <li class="nav-item"><a class="nav-link" href="individual-therapy.html">Individual therapy</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="couple-therapy.html">Couple Therapy</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="group-space.html">Group sessions</a></li>
+                          
+                                    </ul>
+                                </li>
+
 
                   
                       <li class="nav-item">
@@ -155,7 +190,7 @@
                     <li><span>position:</span>Counseling Psychologist</li>
                     <li><span>phone:</span>+91 8237017150</li>
                     <li><span>e-mail:</span>anivira1999@gmail.com</li>
-                    <li><span>experience:</span>3 years</li>
+                    <!-- <li><span>experience:</span>3 years</li> -->
                   </ul>
                 </div>
                 <!-- Team Sidebar Body End -->
@@ -164,9 +199,7 @@
                 <div class="team-sidebar-footer">
                   <span>follow us:</span>
                   <ul>
-                    <li>
-                      <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                    </li>
+                    
                     <li>
                       <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                     </li>

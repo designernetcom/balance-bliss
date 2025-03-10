@@ -79,7 +79,7 @@
             </a>
             <!-- Logo End -->
 
-            <!-- Main Menu Start -->
+          <!-- Main Menu Start -->
             <div class="collapse navbar-collapse main-menu">
               <div class="nav-menu-wrapper">
                 <ul class="navbar-nav mr-auto" id="menu">
@@ -93,11 +93,15 @@
                       >About Us</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html" style="color: #000"
-                      >Services</a
-                    >
-                  </li>
+    <li class="nav-item submenu"><a class="nav-link" href="#" style="color: #000;">Services</a>
+                                    <ul>                                        
+                                        <li class="nav-item"><a class="nav-link" href="individual-therapy.html">Individual therapy</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="couple-therapy.html">Couple Therapy</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="group-space.html">Group sessions</a></li>
+                          
+                                    </ul>
+                                </li>
+
 
                   
                       <li class="nav-item">
@@ -251,18 +255,20 @@
                         <label for="location" class="form-label">Location</label>
                         <select id="location" class="form-select">
                             <option selected>Select location</option>
-                            <option value="clinic">Clinic</option>
-                            <option value="home">Home Visit</option>
-                            <option value="online">Online Therapy</option>
+                            <option value="clinic">In Person [Offline]</option>
+                            <option value="home">Online</option>
+                            
                         </select>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="therapyType" class="form-label">Type of Therapy</label>
                         <select id="therapyType" class="form-select">
                             <option selected>Select therapy type</option>
-                            <option value="physical">Physical Therapy</option>
-                            <option value="occupational">Occupational Therapy</option>
-                            <option value="speech">Speech Therapy</option>
+                            <option value="physical">Individual therapy </option>
+                            <option value="occupational">Group therapy </option>
+                            <option value="speech">Relationship counselling </option>
+                            <option value="speech">Premarital & Marital Counselling </option>
+
                         </select>
                     </div>
 
