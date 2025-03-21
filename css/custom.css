@@ -495,7 +495,7 @@ header.main-header .header-sticky.active::before{
 }
 
 .main-menu ul li a{
-	font-family: var(--accent-font);
+	font-family: 'lusitana', georgia, serif;
 	font-size: 19px;
 	font-weight: 400;
 	padding: 14px 20px !important;
